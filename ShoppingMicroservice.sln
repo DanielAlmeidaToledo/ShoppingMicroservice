@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{9F708D68-A578-44AE-B632-A68B767EB610}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C7D7685B-226F-4EBF-9440-582C92A5AB31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMicroservice.Web", "ShoppingMicroservice.Web\ShoppingMicroservice.Web.csproj", "{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2} = {9F708D68-A578-44AE-B632-A68B767EB610}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50BAFF83-03C0-456A-919B-3B9A4E5F1E7C}
+	EndGlobalSection
+EndGlobal
