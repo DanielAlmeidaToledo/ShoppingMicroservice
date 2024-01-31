@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{9F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C7D7685B-226F-4EBF-9440-582C92A5AB31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMicroservice.Web", "ShoppingMicroservice.Web\ShoppingMicroservice.Web.csproj", "{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingMicroservice.Web", "ShoppingMicroservice.Web\ShoppingMicroservice.Web.csproj", "{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMicroservice.ProductAPI", "ShoppingMicroservice.ProductAPI\ShoppingMicroservice.ProductAPI.csproj", "{7347AB6A-16E3-40EC-BB06-0EB8EB327C06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7347AB6A-16E3-40EC-BB06-0EB8EB327C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7347AB6A-16E3-40EC-BB06-0EB8EB327C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7347AB6A-16E3-40EC-BB06-0EB8EB327C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7347AB6A-16E3-40EC-BB06-0EB8EB327C06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AE56ADDE-8B05-4ECE-98F0-A9471235C3E2} = {9F708D68-A578-44AE-B632-A68B767EB610}
+		{7347AB6A-16E3-40EC-BB06-0EB8EB327C06} = {C7D7685B-226F-4EBF-9440-582C92A5AB31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {50BAFF83-03C0-456A-919B-3B9A4E5F1E7C}
