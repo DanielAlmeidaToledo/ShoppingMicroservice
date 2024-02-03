@@ -1,5 +1,7 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using ShoppingMicroservice.ProductAPI.Config;
 using ShoppingMicroservice.ProductAPI.Model.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,10 @@ builder.Services.AddDbContext<MySQLContext>(options => options.UseMySql(
     connection,
     new MySqlServerVersion(new Version(8, 0, 29)))
 );
+
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Add services to the container.
 
